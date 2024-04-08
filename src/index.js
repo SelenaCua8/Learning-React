@@ -43,7 +43,22 @@ root.render(
       married={true}
       points={[99, 33.3, 22.2]}
       address={{ street: "u. fernandez 543", city: "New York" }}
+      greet={function () {
+        alert('Hello');
+      }}
     />
+    <UserCard
+    name="Selena Cuadra"
+    amount={50000}
+    married={false}
+    points={[99, 33.3, 22.2]}
+    address={{
+        street: "roca 2155",
+        city: "Zarate"
+    }}
+    
+    
+        />
   </div>
 );
 
