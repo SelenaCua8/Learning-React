@@ -1,0 +1,8 @@
+onClick
+onChange
+
+metodos mas utilizados en react: MAP, FILTER, FIND, REDUCE, SORT
+
+Hooks de React: son funciones que proporciona React, puedo utilizarlas para poder guardar/cambiar datos.
+ejemplo: useState, useEffect, useContent
+React Developer Tools: 

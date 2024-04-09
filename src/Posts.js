@@ -14,3 +14,4 @@ return <button onClick={() => {
 }
 //como traer ICONOS REACT ICONS !!!! ACÁ EL EJEMPLO
 //async await, promesas, callbacks de JS
+//otra forma de traer datos y la otra forma comun es recorrer este arreglo

@@ -1,116 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ReactDom from "react-dom/client";
-//import { Greeting, UserCard } from "./Greeting";
-//import Product from "./Product";
-//import {Button} from "./Button";
-import { TaskCard } from "./Task";
-import { Post } from "./Posts";
 
-//siempre importo React, como en la primera linea
 
-const root = ReactDom.createRoot(document.getElementById("root")); //devuelve una aplicación inicial de React
+const root = ReactDom.createRoot(document.getElementById("root"));
 
-//componentes en react === funciones
-//en las funciones de react podemos retornar html != de js
-/* function Greetings() {
-  return <h1>Hello worlds</h1>;
-}
-function Component() {
-  return (
-    <div>
-      <h1>Este es un componente</h1>
-      <p>lorem 123</p>
-    </div>
-  );
-}
- */
-//root.render(Greeting())  //render recibe elementos de html
-//root.render(Component())
-//siempre tiene que haber un elemento que contenga al resto, por eso siempre el DIV primero, es decir, un elemento padre.
+
+
 root.render(
-  <>
-    {/* <Greeting title="Hola Mundo" name="Joe" />
-    <Greeting title="Hola Perro" name="Ryan" />
-    <Greeting title="Que haces" />
-    <Greeting title="Tutto posto" />
-    <Greeting title="Va benne" />
-    <Component />
-    <Greetings />
-    <Content />
-    <Married />
-    <Product />
-    <Person />
-    <UserCard
-      name="Ryan Ray"
-      amount={3000}
-      married={true}
-      points={[99, 33.3, 22.2]}
-      address={{ street: "u. fernandez 543", city: "New York" }}
-      greet={function () {
-        alert('Hello');
-      }}
-    />
-    <UserCard
-    name="Selena Cuadra"
-    amount={50000}
-    married={false}
-    points={[99, 33.3, 22.2]}
-    address={{
-        street: "roca 2155",
-        city: "Zarate"
-    }}
-    
-    
-        /> */}
-        {/* <Button text="Hola mundo"/>
-        <Button text="pay"/>
-        <Button text=" run" name="Selena"/> */}
-      {/* <input id="hola" onChange={(e) => {
-        console.log(e.target.value);
-      /* <input id="hola" onDoubleClick={() => console.log('double click')}/> */}
-      <form onSubmit={(e) => {e.preventDefault() 
-        console.log('enviado')}}>
-        <h1>Registo de usuario</h1>
-        <button>Send</button>
-      </form>
-      <Post/>
-
-  </>
-      
-  
-);
-
-//React no usamos js sino usamos JSX que es una porcion de html y js
-
-/* function Content() {
-  const name = "Selena";
-
-  return <h1> {name} </h1>;
-}
-
-function Married() {
-  const married = true; // si coloco false me aparece else
-  /* if (married){
-        return <h1>Estoy casado</h1>
-    } else {
-        return <h1>No estoy casado</h1>
-    }*/ //asi no se hace en react pero esta bien hecho
-
- /*  return <h1> {married ? "estoy casado" : "no estoy casado"} </h1>;
-
-//para interpretar código va entre llaves
-
-function Person() {
-  const user = {
-    firstName: "Selena",
-    lastName: "Cuadra",
-  };
-  //return <h1> {JSON.stringify(user)} </h1>
-  return (
-    <div>
-      <h1>{user.firstName}</h1>
-      <h3>{user.lastName}</h3>
-    </div>
-  );
-} */ 
-//JSON.stringify() convierte un objeto en string
+    <>
+    <h1>Hola mundo</h1>
+    </>
+)
